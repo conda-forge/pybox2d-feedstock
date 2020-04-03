@@ -1,16 +1,16 @@
 {% set name = "pybox2d" %}
-{% set version = "2.3.2" %}
+{% set version = "2.3.10" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://github.com/pybox2d/pybox2d/archive/{{ version }}.tar.gz"
-  sha256: ca7111557df3ecda3cb48b6c5fb3290fa8b45b6226a34867d2a85cbee5747266
+  url: https://github.com/pybox2d/pybox2d/archive/{{ version }}.tar.gz
+  sha256: 5471722f290b7285dcbdee9bef61d1cb424e5a610fa6e19e9ddeb854c7e3b937
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -29,10 +29,10 @@ test:
     - Box2D.b2
 
 about:
-  home: "https://github.com/pybox2d/pybox2d"
-  doc_url: "https://github.com/pybox2d/pybox2d/wiki/manual"
-  dev_url: "https://github.com/pybox2d/pybox2d"
-  summary: "Python Box2D - a 2D physics engine for games"
+  home: https://github.com/pybox2d/pybox2d
+  doc_url: https://github.com/pybox2d/pybox2d/wiki/manual
+  dev_url: https://github.com/pybox2d/pybox2d
+  summary: Python Box2D - a 2D physics engine for games
   license: zlib-acknowledgement
   license_file: LICENSE
 
