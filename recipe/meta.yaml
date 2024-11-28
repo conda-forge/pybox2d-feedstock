@@ -21,6 +21,7 @@ requirements:
     - python
     - pip
     - swig
+    - setuptools
   run:
     - python
 
