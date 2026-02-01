@@ -370,4 +370,5 @@ Feedstock Maintainers
 =====================
 
 * [@kne](https://github.com/kne/)
+* [@traversaro](https://github.com/traversaro/)
 
