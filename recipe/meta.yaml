@@ -1,8 +1,7 @@
-{% set name = "pybox2d" %}
 {% set version = "2.3.10" %}
 
 package:
-  name: {{ name|lower }}
+  name: pybox2d
   version: {{ version }}
 
 source:
